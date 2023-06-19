@@ -5,6 +5,8 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-color: antiquewhite;
+  color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +37,165 @@
   to {
     transform: rotate(360deg);
   }
+}
+ul {
+  text-align: center;
+}
+header {
+  text-align: center;
+  background-color: antiquewhite;
+}
+div {
+  background-color: #d6986e;
+  /* background-image: url(stunning.jpg); */
+}
+li {
+  display: inline-block;
+  margin: 25px;
+}
+.hero-content {
+  text-align: center;
+}
+.heading{
+  color: antiquewhite;
+  font-size: 50px;
+  font-style: oblique;
+  background-color: #d6986e;
+}
+.quote{
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid antiquewhite;
+  border-radius: 10px;
+  background-color: antiquewhite ;
+  
+}
+.quote::before{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid antiquewhite;
+  border-radius: 20px;
+}
+.styling{
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border: 4px solid antiquewhite;
+  border-radius: 20px;
+  background-color: antiquewhite ;
+}
+.subscription-message {
+  background-color: antiquewhite;
+  padding: 40px;
+  text-align: center;
+}
+
+.subscription-message h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subscription-message p {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.subscription-message form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-message input[type="email"] {
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 4px ;
+  margin-right: 10px;
+}
+
+.subscription-message button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: antiquewhite;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.about{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.privacy{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+/* .nav-links {
+ font-size: larger;
+ font-style: italic;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* CSS for Navigation Bar */
+.nav-links {
+  background-color: antiquewhite;
+  color: #d6986e ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #d6986e;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links li a {
+  color: #d6986e;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav-links li a:hover {
+  background-color: #d6986e;
+  color: antiquewhite;
+  border-radius: 5px;
+}
+.complainForm{
+
+}
+.main_bt a,h2{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  color: antiquewhite;
+  background-color: #d6986e;
+  padding: 7px 25px 6px 25px;
+  border-radius: 30px;
+  display: block;
+}
+.form-group{
+  text-align: center;
+}
+.email-bt{
+  text-align: center;
 }
